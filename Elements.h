@@ -9,10 +9,21 @@ struct Hydrogen {
         	double melt = 13.99;
         	string melt_s = "13.99 K";
         	double molar_hc = 28.836;
-        	string molar_hc_s = "28.836 K";
+        	string molar_hc_s = "28.836 J/(K*mol)";
         	int atomic_number = 1;
         	string symbol = "H";
         	int valence_e = 1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Helium {
@@ -22,11 +33,22 @@ struct Helium {
         	string boil_s = "4.222 K";
         	double melt = 0.95;
         	string melt_s = "0.95 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 2;
         	string symbol = "He";
         	int valence_e = 8;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Lithium {
@@ -37,10 +59,21 @@ struct Lithium {
         	double melt = 453.65;
         	string melt_s = "453.65 K";
         	double molar_hc = 24.86;
-        	string molar_hc_s = "24.86 K";
+        	string molar_hc_s = "24.86 J/(K*mol)";
         	int atomic_number = 3;
         	string symbol = "Li";
         	int valence_e = 1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Beryllium {
@@ -51,10 +84,21 @@ struct Beryllium {
         	double melt = 1560;
         	string melt_s = "1560 K";
         	double molar_hc = 16.443;
-        	string molar_hc_s = "16.443 K";
+        	string molar_hc_s = "16.443 J/(K*mol)";
         	int atomic_number = 4;
         	string symbol = "Be";
         	int valence_e = 2;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Boron {
@@ -65,24 +109,46 @@ struct Boron {
         	double melt = 2349;
         	string melt_s = "2349 K";
         	double molar_hc = 11.087;
-        	string molar_hc_s = "11.087 K";
+        	string molar_hc_s = "11.087 J/(K*mol)";
         	int atomic_number = 5;
         	string symbol = "B";
         	int valence_e = 3;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Carbon {
         	string name = "Carbon";
         	double atomic_mass = 12.011;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
         	double molar_hc = 8.517;
-        	string molar_hc_s = "8.517 K";
+        	string molar_hc_s = "8.517 J/(K*mol)";
         	int atomic_number = 6;
         	string symbol = "C";
         	int valence_e = 4;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Nitrogen {
@@ -92,11 +158,22 @@ struct Nitrogen {
         	string boil_s = "77.355 K";
         	double melt = 63.15;
         	string melt_s = "63.15 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 7;
         	string symbol = "N";
         	int valence_e = 5;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Oxygen {
@@ -106,11 +183,22 @@ struct Oxygen {
         	string boil_s = "90.188 K";
         	double melt = 54.36;
         	string melt_s = "54.36 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 8;
         	string symbol = "O";
         	int valence_e = 6;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Fluorine {
@@ -120,11 +208,22 @@ struct Fluorine {
         	string boil_s = "85.03 K";
         	double melt = 53.48;
         	string melt_s = "53.48 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 9;
         	string symbol = "F";
         	int valence_e = 7;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Neon {
@@ -134,11 +233,22 @@ struct Neon {
         	string boil_s = "27.104 K";
         	double melt = 24.56;
         	string melt_s = "24.56 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 10;
         	string symbol = "Ne";
         	int valence_e = 8;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Sodium {
@@ -149,10 +259,21 @@ struct Sodium {
         	double melt = 370.944;
         	string melt_s = "370.944 K";
         	double molar_hc = 28.23;
-        	string molar_hc_s = "28.23 K";
+        	string molar_hc_s = "28.23 J/(K*mol)";
         	int atomic_number = 11;
         	string symbol = "Na";
         	int valence_e = 1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Magnesium {
@@ -163,10 +284,21 @@ struct Magnesium {
         	double melt = 923;
         	string melt_s = "923 K";
         	double molar_hc = 24.869;
-        	string molar_hc_s = "24.869 K";
+        	string molar_hc_s = "24.869 J/(K*mol)";
         	int atomic_number = 12;
         	string symbol = "Mg";
         	int valence_e = 2;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Aluminium {
@@ -177,10 +309,21 @@ struct Aluminium {
         	double melt = 933.47;
         	string melt_s = "933.47 K";
         	double molar_hc = 24.2;
-        	string molar_hc_s = "24.2 K";
+        	string molar_hc_s = "24.2 J/(K*mol)";
         	int atomic_number = 13;
         	string symbol = "Al";
         	int valence_e = 3;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Silicon {
@@ -191,24 +334,46 @@ struct Silicon {
         	double melt = 1687;
         	string melt_s = "1687 K";
         	double molar_hc = 19.789;
-        	string molar_hc_s = "19.789 K";
+        	string molar_hc_s = "19.789 J/(K*mol)";
         	int atomic_number = 14;
         	string symbol = "Si";
         	int valence_e = 4;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Phosphorus {
         	string name = "Phosphorus";
         	double atomic_mass = 30.9737619985;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
         	double molar_hc = 23.824;
-        	string molar_hc_s = "23.824 K";
+        	string molar_hc_s = "23.824 J/(K*mol)";
         	int atomic_number = 15;
         	string symbol = "P";
         	int valence_e = 5;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Sulfur {
@@ -219,10 +384,21 @@ struct Sulfur {
         	double melt = 388.36;
         	string melt_s = "388.36 K";
         	double molar_hc = 22.75;
-        	string molar_hc_s = "22.75 K";
+        	string molar_hc_s = "22.75 J/(K*mol)";
         	int atomic_number = 16;
         	string symbol = "S";
         	int valence_e = 6;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Chlorine {
@@ -232,11 +408,22 @@ struct Chlorine {
         	string boil_s = "239.11 K";
         	double melt = 171.6;
         	string melt_s = "171.6 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 17;
         	string symbol = "Cl";
         	int valence_e = 7;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Argon {
@@ -246,11 +433,22 @@ struct Argon {
         	string boil_s = "87.302 K";
         	double melt = 83.81;
         	string melt_s = "83.81 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 18;
         	string symbol = "Ar";
         	int valence_e = 8;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Potassium {
@@ -261,10 +459,21 @@ struct Potassium {
         	double melt = 336.7;
         	string melt_s = "336.7 K";
         	double molar_hc = 29.6;
-        	string molar_hc_s = "29.6 K";
+        	string molar_hc_s = "29.6 J/(K*mol)";
         	int atomic_number = 19;
         	string symbol = "K";
         	int valence_e = 1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Calcium {
@@ -275,10 +484,21 @@ struct Calcium {
         	double melt = 1115;
         	string melt_s = "1115 K";
         	double molar_hc = 25.929;
-        	string molar_hc_s = "25.929 K";
+        	string molar_hc_s = "25.929 J/(K*mol)";
         	int atomic_number = 20;
         	string symbol = "Ca";
         	int valence_e = 2;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Scandium {
@@ -289,10 +509,21 @@ struct Scandium {
         	double melt = 1814;
         	string melt_s = "1814 K";
         	double molar_hc = 25.52;
-        	string molar_hc_s = "25.52 K";
+        	string molar_hc_s = "25.52 J/(K*mol)";
         	int atomic_number = 21;
         	string symbol = "Sc";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Titanium {
@@ -303,10 +534,21 @@ struct Titanium {
         	double melt = 1941;
         	string melt_s = "1941 K";
         	double molar_hc = 25.06;
-        	string molar_hc_s = "25.06 K";
+        	string molar_hc_s = "25.06 J/(K*mol)";
         	int atomic_number = 22;
         	string symbol = "Ti";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Vanadium {
@@ -317,10 +559,21 @@ struct Vanadium {
         	double melt = 2183;
         	string melt_s = "2183 K";
         	double molar_hc = 24.89;
-        	string molar_hc_s = "24.89 K";
+        	string molar_hc_s = "24.89 J/(K*mol)";
         	int atomic_number = 23;
         	string symbol = "V";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Chromium {
@@ -331,10 +584,21 @@ struct Chromium {
         	double melt = 2180;
         	string melt_s = "2180 K";
         	double molar_hc = 23.35;
-        	string molar_hc_s = "23.35 K";
+        	string molar_hc_s = "23.35 J/(K*mol)";
         	int atomic_number = 24;
         	string symbol = "Cr";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Manganese {
@@ -345,10 +609,21 @@ struct Manganese {
         	double melt = 1519;
         	string melt_s = "1519 K";
         	double molar_hc = 26.32;
-        	string molar_hc_s = "26.32 K";
+        	string molar_hc_s = "26.32 J/(K*mol)";
         	int atomic_number = 25;
         	string symbol = "Mn";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Iron {
@@ -359,10 +634,21 @@ struct Iron {
         	double melt = 1811;
         	string melt_s = "1811 K";
         	double molar_hc = 25.1;
-        	string molar_hc_s = "25.1 K";
+        	string molar_hc_s = "25.1 J/(K*mol)";
         	int atomic_number = 26;
         	string symbol = "Fe";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Cobalt {
@@ -373,10 +659,21 @@ struct Cobalt {
         	double melt = 1768;
         	string melt_s = "1768 K";
         	double molar_hc = 24.81;
-        	string molar_hc_s = "24.81 K";
+        	string molar_hc_s = "24.81 J/(K*mol)";
         	int atomic_number = 27;
         	string symbol = "Co";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Nickel {
@@ -387,10 +684,21 @@ struct Nickel {
         	double melt = 1728;
         	string melt_s = "1728 K";
         	double molar_hc = 26.07;
-        	string molar_hc_s = "26.07 K";
+        	string molar_hc_s = "26.07 J/(K*mol)";
         	int atomic_number = 28;
         	string symbol = "Ni";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Copper {
@@ -401,10 +709,21 @@ struct Copper {
         	double melt = 1357.77;
         	string melt_s = "1357.77 K";
         	double molar_hc = 24.44;
-        	string molar_hc_s = "24.44 K";
+        	string molar_hc_s = "24.44 J/(K*mol)";
         	int atomic_number = 29;
         	string symbol = "Cu";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Zinc {
@@ -415,10 +734,21 @@ struct Zinc {
         	double melt = 692.68;
         	string melt_s = "692.68 K";
         	double molar_hc = 25.47;
-        	string molar_hc_s = "25.47 K";
+        	string molar_hc_s = "25.47 J/(K*mol)";
         	int atomic_number = 30;
         	string symbol = "Zn";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Gallium {
@@ -429,10 +759,21 @@ struct Gallium {
         	double melt = 302.9146;
         	string melt_s = "302.9146 K";
         	double molar_hc = 25.86;
-        	string molar_hc_s = "25.86 K";
+        	string molar_hc_s = "25.86 J/(K*mol)";
         	int atomic_number = 31;
         	string symbol = "Ga";
         	int valence_e = 3;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Germanium {
@@ -443,24 +784,46 @@ struct Germanium {
         	double melt = 1211.4;
         	string melt_s = "1211.4 K";
         	double molar_hc = 23.222;
-        	string molar_hc_s = "23.222 K";
+        	string molar_hc_s = "23.222 J/(K*mol)";
         	int atomic_number = 32;
         	string symbol = "Ge";
         	int valence_e = 4;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Arsenic {
         	string name = "Arsenic";
         	double atomic_mass = 74.9215956;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
         	double molar_hc = 24.64;
-        	string molar_hc_s = "24.64 K";
+        	string molar_hc_s = "24.64 J/(K*mol)";
         	int atomic_number = 33;
         	string symbol = "As";
         	int valence_e = 5;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Selenium {
@@ -471,10 +834,21 @@ struct Selenium {
         	double melt = 494;
         	string melt_s = "494 K";
         	double molar_hc = 25.363;
-        	string molar_hc_s = "25.363 K";
+        	string molar_hc_s = "25.363 J/(K*mol)";
         	int atomic_number = 34;
         	string symbol = "Se";
         	int valence_e = 6;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Bromine {
@@ -484,11 +858,22 @@ struct Bromine {
         	string boil_s = "332 K";
         	double melt = 265.8;
         	string melt_s = "265.8 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 35;
         	string symbol = "Br";
         	int valence_e = 7;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Krypton {
@@ -498,11 +883,22 @@ struct Krypton {
         	string boil_s = "119.93 K";
         	double melt = 115.78;
         	string melt_s = "115.78 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 36;
         	string symbol = "Kr";
         	int valence_e = 8;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Rubidium {
@@ -513,10 +909,21 @@ struct Rubidium {
         	double melt = 312.45;
         	string melt_s = "312.45 K";
         	double molar_hc = 31.06;
-        	string molar_hc_s = "31.06 K";
+        	string molar_hc_s = "31.06 J/(K*mol)";
         	int atomic_number = 37;
         	string symbol = "Rb";
         	int valence_e = 1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Strontium {
@@ -527,10 +934,21 @@ struct Strontium {
         	double melt = 1050;
         	string melt_s = "1050 K";
         	double molar_hc = 26.4;
-        	string molar_hc_s = "26.4 K";
+        	string molar_hc_s = "26.4 J/(K*mol)";
         	int atomic_number = 38;
         	string symbol = "Sr";
         	int valence_e = 2;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Yttrium {
@@ -541,10 +959,21 @@ struct Yttrium {
         	double melt = 1799;
         	string melt_s = "1799 K";
         	double molar_hc = 26.53;
-        	string molar_hc_s = "26.53 K";
+        	string molar_hc_s = "26.53 J/(K*mol)";
         	int atomic_number = 39;
         	string symbol = "Y";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Zirconium {
@@ -555,10 +984,21 @@ struct Zirconium {
         	double melt = 2128;
         	string melt_s = "2128 K";
         	double molar_hc = 25.36;
-        	string molar_hc_s = "25.36 K";
+        	string molar_hc_s = "25.36 J/(K*mol)";
         	int atomic_number = 40;
         	string symbol = "Zr";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Niobium {
@@ -569,10 +1009,21 @@ struct Niobium {
         	double melt = 2750;
         	string melt_s = "2750 K";
         	double molar_hc = 24.6;
-        	string molar_hc_s = "24.6 K";
+        	string molar_hc_s = "24.6 J/(K*mol)";
         	int atomic_number = 41;
         	string symbol = "Nb";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Molybdenum {
@@ -583,10 +1034,21 @@ struct Molybdenum {
         	double melt = 2896;
         	string melt_s = "2896 K";
         	double molar_hc = 24.06;
-        	string molar_hc_s = "24.06 K";
+        	string molar_hc_s = "24.06 J/(K*mol)";
         	int atomic_number = 42;
         	string symbol = "Mo";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Technetium {
@@ -597,10 +1059,21 @@ struct Technetium {
         	double melt = 2430;
         	string melt_s = "2430 K";
         	double molar_hc = 24.27;
-        	string molar_hc_s = "24.27 K";
+        	string molar_hc_s = "24.27 J/(K*mol)";
         	int atomic_number = 43;
         	string symbol = "Tc";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Ruthenium {
@@ -611,10 +1084,21 @@ struct Ruthenium {
         	double melt = 2607;
         	string melt_s = "2607 K";
         	double molar_hc = 24.06;
-        	string molar_hc_s = "24.06 K";
+        	string molar_hc_s = "24.06 J/(K*mol)";
         	int atomic_number = 44;
         	string symbol = "Ru";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Rhodium {
@@ -625,10 +1109,21 @@ struct Rhodium {
         	double melt = 2237;
         	string melt_s = "2237 K";
         	double molar_hc = 24.98;
-        	string molar_hc_s = "24.98 K";
+        	string molar_hc_s = "24.98 J/(K*mol)";
         	int atomic_number = 45;
         	string symbol = "Rh";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Palladium {
@@ -639,10 +1134,21 @@ struct Palladium {
         	double melt = 1828.05;
         	string melt_s = "1828.05 K";
         	double molar_hc = 25.98;
-        	string molar_hc_s = "25.98 K";
+        	string molar_hc_s = "25.98 J/(K*mol)";
         	int atomic_number = 46;
         	string symbol = "Pd";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Silver {
@@ -653,10 +1159,21 @@ struct Silver {
         	double melt = 1234.93;
         	string melt_s = "1234.93 K";
         	double molar_hc = 25.35;
-        	string molar_hc_s = "25.35 K";
+        	string molar_hc_s = "25.35 J/(K*mol)";
         	int atomic_number = 47;
         	string symbol = "Ag";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Cadmium {
@@ -667,10 +1184,21 @@ struct Cadmium {
         	double melt = 594.22;
         	string melt_s = "594.22 K";
         	double molar_hc = 26.02;
-        	string molar_hc_s = "26.02 K";
+        	string molar_hc_s = "26.02 J/(K*mol)";
         	int atomic_number = 48;
         	string symbol = "Cd";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Indium {
@@ -681,10 +1209,21 @@ struct Indium {
         	double melt = 429.7485;
         	string melt_s = "429.7485 K";
         	double molar_hc = 26.74;
-        	string molar_hc_s = "26.74 K";
+        	string molar_hc_s = "26.74 J/(K*mol)";
         	int atomic_number = 49;
         	string symbol = "In";
         	int valence_e = 3;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Tin {
@@ -695,10 +1234,21 @@ struct Tin {
         	double melt = 505.08;
         	string melt_s = "505.08 K";
         	double molar_hc = 27.112;
-        	string molar_hc_s = "27.112 K";
+        	string molar_hc_s = "27.112 J/(K*mol)";
         	int atomic_number = 50;
         	string symbol = "Sn";
         	int valence_e = 4;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Antimony {
@@ -709,10 +1259,21 @@ struct Antimony {
         	double melt = 903.78;
         	string melt_s = "903.78 K";
         	double molar_hc = 25.23;
-        	string molar_hc_s = "25.23 K";
+        	string molar_hc_s = "25.23 J/(K*mol)";
         	int atomic_number = 51;
         	string symbol = "Sb";
         	int valence_e = 5;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Tellurium {
@@ -723,10 +1284,21 @@ struct Tellurium {
         	double melt = 722.66;
         	string melt_s = "722.66 K";
         	double molar_hc = 25.73;
-        	string molar_hc_s = "25.73 K";
+        	string molar_hc_s = "25.73 J/(K*mol)";
         	int atomic_number = 52;
         	string symbol = "Te";
         	int valence_e = 6;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Iodine {
@@ -736,11 +1308,22 @@ struct Iodine {
         	string boil_s = "457.4 K";
         	double melt = 386.85;
         	string melt_s = "386.85 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 53;
         	string symbol = "I";
         	int valence_e = 7;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Xenon {
@@ -750,11 +1333,22 @@ struct Xenon {
         	string boil_s = "165.051 K";
         	double melt = 161.4;
         	string melt_s = "161.4 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 54;
         	string symbol = "Xe";
         	int valence_e = 8;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Cesium {
@@ -765,10 +1359,21 @@ struct Cesium {
         	double melt = 301.7;
         	string melt_s = "301.7 K";
         	double molar_hc = 32.21;
-        	string molar_hc_s = "32.21 K";
+        	string molar_hc_s = "32.21 J/(K*mol)";
         	int atomic_number = 55;
         	string symbol = "Cs";
         	int valence_e = 1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Barium {
@@ -779,10 +1384,21 @@ struct Barium {
         	double melt = 1000;
         	string melt_s = "1000 K";
         	double molar_hc = 28.07;
-        	string molar_hc_s = "28.07 K";
+        	string molar_hc_s = "28.07 J/(K*mol)";
         	int atomic_number = 56;
         	string symbol = "Ba";
         	int valence_e = 2;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Lanthanum {
@@ -793,10 +1409,21 @@ struct Lanthanum {
         	double melt = 1193;
         	string melt_s = "1193 K";
         	double molar_hc = 27.11;
-        	string molar_hc_s = "27.11 K";
+        	string molar_hc_s = "27.11 J/(K*mol)";
         	int atomic_number = 57;
         	string symbol = "La";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Cerium {
@@ -807,10 +1434,21 @@ struct Cerium {
         	double melt = 1068;
         	string melt_s = "1068 K";
         	double molar_hc = 26.94;
-        	string molar_hc_s = "26.94 K";
+        	string molar_hc_s = "26.94 J/(K*mol)";
         	int atomic_number = 58;
         	string symbol = "Ce";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Praseodymium {
@@ -821,10 +1459,21 @@ struct Praseodymium {
         	double melt = 1208;
         	string melt_s = "1208 K";
         	double molar_hc = 27.2;
-        	string molar_hc_s = "27.2 K";
+        	string molar_hc_s = "27.2 J/(K*mol)";
         	int atomic_number = 59;
         	string symbol = "Pr";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Neodymium {
@@ -835,10 +1484,21 @@ struct Neodymium {
         	double melt = 1297;
         	string melt_s = "1297 K";
         	double molar_hc = 27.45;
-        	string molar_hc_s = "27.45 K";
+        	string molar_hc_s = "27.45 J/(K*mol)";
         	int atomic_number = 60;
         	string symbol = "Nd";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Promethium {
@@ -848,11 +1508,22 @@ struct Promethium {
         	string boil_s = "3273 K";
         	double melt = 1315;
         	string melt_s = "1315 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 61;
         	string symbol = "Pm";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Samarium {
@@ -863,10 +1534,21 @@ struct Samarium {
         	double melt = 1345;
         	string melt_s = "1345 K";
         	double molar_hc = 29.54;
-        	string molar_hc_s = "29.54 K";
+        	string molar_hc_s = "29.54 J/(K*mol)";
         	int atomic_number = 62;
         	string symbol = "Sm";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Europium {
@@ -877,10 +1559,21 @@ struct Europium {
         	double melt = 1099;
         	string melt_s = "1099 K";
         	double molar_hc = 27.66;
-        	string molar_hc_s = "27.66 K";
+        	string molar_hc_s = "27.66 J/(K*mol)";
         	int atomic_number = 63;
         	string symbol = "Eu";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Gadolinium {
@@ -891,10 +1584,21 @@ struct Gadolinium {
         	double melt = 1585;
         	string melt_s = "1585 K";
         	double molar_hc = 37.03;
-        	string molar_hc_s = "37.03 K";
+        	string molar_hc_s = "37.03 J/(K*mol)";
         	int atomic_number = 64;
         	string symbol = "Gd";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Terbium {
@@ -905,10 +1609,21 @@ struct Terbium {
         	double melt = 1629;
         	string melt_s = "1629 K";
         	double molar_hc = 28.91;
-        	string molar_hc_s = "28.91 K";
+        	string molar_hc_s = "28.91 J/(K*mol)";
         	int atomic_number = 65;
         	string symbol = "Tb";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Dysprosium {
@@ -919,10 +1634,21 @@ struct Dysprosium {
         	double melt = 1680;
         	string melt_s = "1680 K";
         	double molar_hc = 27.7;
-        	string molar_hc_s = "27.7 K";
+        	string molar_hc_s = "27.7 J/(K*mol)";
         	int atomic_number = 66;
         	string symbol = "Dy";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Holmium {
@@ -933,10 +1659,21 @@ struct Holmium {
         	double melt = 1734;
         	string melt_s = "1734 K";
         	double molar_hc = 27.15;
-        	string molar_hc_s = "27.15 K";
+        	string molar_hc_s = "27.15 J/(K*mol)";
         	int atomic_number = 67;
         	string symbol = "Ho";
         	int valence_e = 3;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Erbium {
@@ -947,10 +1684,21 @@ struct Erbium {
         	double melt = 1802;
         	string melt_s = "1802 K";
         	double molar_hc = 28.12;
-        	string molar_hc_s = "28.12 K";
+        	string molar_hc_s = "28.12 J/(K*mol)";
         	int atomic_number = 68;
         	string symbol = "Er";
         	int valence_e = 4;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Thulium {
@@ -961,10 +1709,21 @@ struct Thulium {
         	double melt = 1818;
         	string melt_s = "1818 K";
         	double molar_hc = 27.03;
-        	string molar_hc_s = "27.03 K";
+        	string molar_hc_s = "27.03 J/(K*mol)";
         	int atomic_number = 69;
         	string symbol = "Tm";
         	int valence_e = 5;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Ytterbium {
@@ -975,10 +1734,21 @@ struct Ytterbium {
         	double melt = 1097;
         	string melt_s = "1097 K";
         	double molar_hc = 26.74;
-        	string molar_hc_s = "26.74 K";
+        	string molar_hc_s = "26.74 J/(K*mol)";
         	int atomic_number = 70;
         	string symbol = "Yb";
         	int valence_e = 6;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Lutetium {
@@ -989,10 +1759,21 @@ struct Lutetium {
         	double melt = 1925;
         	string melt_s = "1925 K";
         	double molar_hc = 26.86;
-        	string molar_hc_s = "26.86 K";
+        	string molar_hc_s = "26.86 J/(K*mol)";
         	int atomic_number = 71;
         	string symbol = "Lu";
         	int valence_e = 7;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Hafnium {
@@ -1003,10 +1784,21 @@ struct Hafnium {
         	double melt = 2506;
         	string melt_s = "2506 K";
         	double molar_hc = 25.73;
-        	string molar_hc_s = "25.73 K";
+        	string molar_hc_s = "25.73 J/(K*mol)";
         	int atomic_number = 72;
         	string symbol = "Hf";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Tantalum {
@@ -1017,10 +1809,21 @@ struct Tantalum {
         	double melt = 3290;
         	string melt_s = "3290 K";
         	double molar_hc = 25.36;
-        	string molar_hc_s = "25.36 K";
+        	string molar_hc_s = "25.36 J/(K*mol)";
         	int atomic_number = 73;
         	string symbol = "Ta";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Tungsten {
@@ -1031,10 +1834,21 @@ struct Tungsten {
         	double melt = 3695;
         	string melt_s = "3695 K";
         	double molar_hc = 24.27;
-        	string molar_hc_s = "24.27 K";
+        	string molar_hc_s = "24.27 J/(K*mol)";
         	int atomic_number = 74;
         	string symbol = "W";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Rhenium {
@@ -1045,10 +1859,21 @@ struct Rhenium {
         	double melt = 3459;
         	string melt_s = "3459 K";
         	double molar_hc = 25.48;
-        	string molar_hc_s = "25.48 K";
+        	string molar_hc_s = "25.48 J/(K*mol)";
         	int atomic_number = 75;
         	string symbol = "Re";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Osmium {
@@ -1059,10 +1884,21 @@ struct Osmium {
         	double melt = 3306;
         	string melt_s = "3306 K";
         	double molar_hc = 24.7;
-        	string molar_hc_s = "24.7 K";
+        	string molar_hc_s = "24.7 J/(K*mol)";
         	int atomic_number = 76;
         	string symbol = "Os";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Iridium {
@@ -1073,10 +1909,21 @@ struct Iridium {
         	double melt = 2719;
         	string melt_s = "2719 K";
         	double molar_hc = 25.1;
-        	string molar_hc_s = "25.1 K";
+        	string molar_hc_s = "25.1 J/(K*mol)";
         	int atomic_number = 77;
         	string symbol = "Ir";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Platinum {
@@ -1087,10 +1934,21 @@ struct Platinum {
         	double melt = 2041.4;
         	string melt_s = "2041.4 K";
         	double molar_hc = 25.86;
-        	string molar_hc_s = "25.86 K";
+        	string molar_hc_s = "25.86 J/(K*mol)";
         	int atomic_number = 78;
         	string symbol = "Pt";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Gold {
@@ -1101,10 +1959,21 @@ struct Gold {
         	double melt = 1337.33;
         	string melt_s = "1337.33 K";
         	double molar_hc = 25.418;
-        	string molar_hc_s = "25.418 K";
+        	string molar_hc_s = "25.418 J/(K*mol)";
         	int atomic_number = 79;
         	string symbol = "Au";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Mercury {
@@ -1115,10 +1984,21 @@ struct Mercury {
         	double melt = 234.321;
         	string melt_s = "234.321 K";
         	double molar_hc = 27.983;
-        	string molar_hc_s = "27.983 K";
+        	string molar_hc_s = "27.983 J/(K*mol)";
         	int atomic_number = 80;
         	string symbol = "Hg";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Thallium {
@@ -1129,10 +2009,21 @@ struct Thallium {
         	double melt = 577;
         	string melt_s = "577 K";
         	double molar_hc = 26.32;
-        	string molar_hc_s = "26.32 K";
+        	string molar_hc_s = "26.32 J/(K*mol)";
         	int atomic_number = 81;
         	string symbol = "Tl";
         	int valence_e = 3;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Lead {
@@ -1143,10 +2034,21 @@ struct Lead {
         	double melt = 600.61;
         	string melt_s = "600.61 K";
         	double molar_hc = 26.65;
-        	string molar_hc_s = "26.65 K";
+        	string molar_hc_s = "26.65 J/(K*mol)";
         	int atomic_number = 82;
         	string symbol = "Pb";
         	int valence_e = 4;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Bismuth {
@@ -1157,10 +2059,21 @@ struct Bismuth {
         	double melt = 544.7;
         	string melt_s = "544.7 K";
         	double molar_hc = 25.52;
-        	string molar_hc_s = "25.52 K";
+        	string molar_hc_s = "25.52 J/(K*mol)";
         	int atomic_number = 83;
         	string symbol = "Bi";
         	int valence_e = 5;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Polonium {
@@ -1171,10 +2084,21 @@ struct Polonium {
         	double melt = 527;
         	string melt_s = "527 K";
         	double molar_hc = 26.4;
-        	string molar_hc_s = "26.4 K";
+        	string molar_hc_s = "26.4 J/(K*mol)";
         	int atomic_number = 84;
         	string symbol = "Po";
         	int valence_e = 6;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Astatine {
@@ -1184,11 +2108,22 @@ struct Astatine {
         	string boil_s = "610 K";
         	double melt = 575;
         	string melt_s = "575 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 85;
         	string symbol = "At";
         	int valence_e = 7;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Radon {
@@ -1198,11 +2133,22 @@ struct Radon {
         	string boil_s = "211.5 K";
         	double melt = 202;
         	string melt_s = "202 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 86;
         	string symbol = "Rn";
         	int valence_e = 8;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Francium {
@@ -1212,11 +2158,22 @@ struct Francium {
         	string boil_s = "950 K";
         	double melt = 300;
         	string melt_s = "300 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 87;
         	string symbol = "Fr";
         	int valence_e = 1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Radium {
@@ -1226,11 +2183,22 @@ struct Radium {
         	string boil_s = "2010 K";
         	double melt = 1233;
         	string melt_s = "1233 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 88;
         	string symbol = "Ra";
         	int valence_e = 2;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Actinium {
@@ -1241,10 +2209,21 @@ struct Actinium {
         	double melt = 1500;
         	string melt_s = "1500 K";
         	double molar_hc = 27.2;
-        	string molar_hc_s = "27.2 K";
+        	string molar_hc_s = "27.2 J/(K*mol)";
         	int atomic_number = 89;
         	string symbol = "Ac";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Thorium {
@@ -1255,10 +2234,21 @@ struct Thorium {
         	double melt = 2023;
         	string melt_s = "2023 K";
         	double molar_hc = 26.23;
-        	string molar_hc_s = "26.23 K";
+        	string molar_hc_s = "26.23 J/(K*mol)";
         	int atomic_number = 90;
         	string symbol = "Th";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Protactinium {
@@ -1268,11 +2258,22 @@ struct Protactinium {
         	string boil_s = "4300 K";
         	double melt = 1841;
         	string melt_s = "1841 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 91;
         	string symbol = "Pa";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Uranium {
@@ -1283,10 +2284,21 @@ struct Uranium {
         	double melt = 1405.3;
         	string melt_s = "1405.3 K";
         	double molar_hc = 27.665;
-        	string molar_hc_s = "27.665 K";
+        	string molar_hc_s = "27.665 J/(K*mol)";
         	int atomic_number = 92;
         	string symbol = "U";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Neptunium {
@@ -1297,10 +2309,21 @@ struct Neptunium {
         	double melt = 912;
         	string melt_s = "912 K";
         	double molar_hc = 29.46;
-        	string molar_hc_s = "29.46 K";
+        	string molar_hc_s = "29.46 J/(K*mol)";
         	int atomic_number = 93;
         	string symbol = "Np";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Plutonium {
@@ -1311,10 +2334,21 @@ struct Plutonium {
         	double melt = 912.5;
         	string melt_s = "912.5 K";
         	double molar_hc = 35.5;
-        	string molar_hc_s = "35.5 K";
+        	string molar_hc_s = "35.5 J/(K*mol)";
         	int atomic_number = 94;
         	string symbol = "Pu";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Americium {
@@ -1325,10 +2359,21 @@ struct Americium {
         	double melt = 1449;
         	string melt_s = "1449 K";
         	double molar_hc = 62.7;
-        	string molar_hc_s = "62.7 K";
+        	string molar_hc_s = "62.7 J/(K*mol)";
         	int atomic_number = 95;
         	string symbol = "Am";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Curium {
@@ -1338,11 +2383,22 @@ struct Curium {
         	string boil_s = "3383 K";
         	double melt = 1613;
         	string melt_s = "1613 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 96;
         	string symbol = "Cm";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Berkelium {
@@ -1352,11 +2408,22 @@ struct Berkelium {
         	string boil_s = "2900 K";
         	double melt = 1259;
         	string melt_s = "1259 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 97;
         	string symbol = "Bk";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Californium {
@@ -1366,11 +2433,22 @@ struct Californium {
         	string boil_s = "1743 K";
         	double melt = 1173;
         	string melt_s = "1173 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 98;
         	string symbol = "Cf";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Einsteinium {
@@ -1380,67 +2458,122 @@ struct Einsteinium {
         	string boil_s = "1269 K";
         	double melt = 1133;
         	string melt_s = "1133 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 99;
         	string symbol = "Es";
         	int valence_e = 3;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Fermium {
         	string name = "Fermium";
         	double atomic_mass = 257;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
         	double melt = 1800;
         	string melt_s = "1800 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 100;
         	string symbol = "Fm";
         	int valence_e = 4;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Mendelevium {
         	string name = "Mendelevium";
         	double atomic_mass = 258;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
         	double melt = 1100;
         	string melt_s = "1100 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 101;
         	string symbol = "Md";
         	int valence_e = 5;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Nobelium {
         	string name = "Nobelium";
         	double atomic_mass = 259;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
         	double melt = 1100;
         	string melt_s = "1100 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 102;
         	string symbol = "No";
         	int valence_e = 6;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Lawrencium {
         	string name = "Lawrencium";
         	double atomic_mass = 266;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
         	double melt = 1900;
         	string melt_s = "1900 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 103;
         	string symbol = "Lr";
         	int valence_e = 7;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Rutherfordium {
@@ -1450,109 +2583,197 @@ struct Rutherfordium {
         	string boil_s = "5800 K";
         	double melt = 2400;
         	string melt_s = "2400 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 104;
         	string symbol = "Rf";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Dubnium {
         	string name = "Dubnium";
         	double atomic_mass = 268;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 105;
         	string symbol = "Db";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Seaborgium {
         	string name = "Seaborgium";
         	double atomic_mass = 269;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 106;
         	string symbol = "Sg";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Bohrium {
         	string name = "Bohrium";
         	double atomic_mass = 270;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 107;
         	string symbol = "Bh";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Hassium {
         	string name = "Hassium";
         	double atomic_mass = 269;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
         	double melt = 126;
         	string melt_s = "126 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 108;
         	string symbol = "Hs";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Meitnerium {
         	string name = "Meitnerium";
         	double atomic_mass = 278;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 109;
         	string symbol = "Mt";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Darmstadtium {
         	string name = "Darmstadtium";
         	double atomic_mass = 281;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 110;
         	string symbol = "Ds";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Roentgenium {
         	string name = "Roentgenium";
         	double atomic_mass = 282;
-        	double boil = None;
+        	double boil = -1.0;
         	string boil_s = "None K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 111;
         	string symbol = "Rg";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Copernicium {
@@ -1560,13 +2781,24 @@ struct Copernicium {
         	double atomic_mass = 285;
         	double boil = 3570;
         	string boil_s = "3570 K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 112;
         	string symbol = "Cn";
         	int valence_e = -1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Nihonium {
@@ -1576,11 +2808,22 @@ struct Nihonium {
         	string boil_s = "1430 K";
         	double melt = 700;
         	string melt_s = "700 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 113;
         	string symbol = "Nh";
         	int valence_e = 3;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Flerovium {
@@ -1590,11 +2833,22 @@ struct Flerovium {
         	string boil_s = "420 K";
         	double melt = 340;
         	string melt_s = "340 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 114;
         	string symbol = "Fl";
         	int valence_e = 4;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Moscovium {
@@ -1604,11 +2858,22 @@ struct Moscovium {
         	string boil_s = "1400 K";
         	double melt = 670;
         	string melt_s = "670 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 115;
         	string symbol = "Mc";
         	int valence_e = 5;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Livermorium {
@@ -1618,11 +2883,22 @@ struct Livermorium {
         	string boil_s = "1085 K";
         	double melt = 709;
         	string melt_s = "709 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 116;
         	string symbol = "Lv";
         	int valence_e = 6;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Tennessine {
@@ -1632,11 +2908,22 @@ struct Tennessine {
         	string boil_s = "883 K";
         	double melt = 723;
         	string melt_s = "723 K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 117;
         	string symbol = "Ts";
         	int valence_e = 7;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Oganesson {
@@ -1644,13 +2931,24 @@ struct Oganesson {
         	double atomic_mass = 294;
         	double boil = 350;
         	string boil_s = "350 K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 118;
         	string symbol = "Og";
         	int valence_e = 8;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
 struct Ununennium {
@@ -1658,12 +2956,23 @@ struct Ununennium {
         	double atomic_mass = 315;
         	double boil = 630;
         	string boil_s = "630 K";
-        	double melt = None;
+        	double melt = -1.0;
         	string melt_s = "None K";
-        	double molar_hc = None;
-        	string molar_hc_s = "None K";
+        	double molar_hc = -1.0;
+        	string molar_hc_s = "None J/(K*mol)";
         	int atomic_number = 119;
         	string symbol = "Uue";
         	int valence_e = 1;
+
+        	string getName(){return name;};
+        	double getAtomicMass(){return atomic_mass;};
+        	double getBoilingTemp(){return boil;};
+        	double getMeltingTemp(){return melt;};
+        	double getMolarHeatCapacity(){return molar_hc;};
+        	int getAtomicNumber(){return atomic_number;};
+        	string getSymbol(){return symbol;};
+        	int getValenceNumber(){return valence_e;};
+
+        string toString(){return name + " " + symbol + "\n\t" + "atomic mass: " + std::to_string(atomic_mass) + "\n\t" + "Boiling Point: " + boil_s + "\n\t" + "Melting Point " + melt_s + "\n\t" + "Molar Heat Capacity: " + molar_hc_s + "\n\t" + "atomic number: " + std::to_string(atomic_number) + "\n\t" + "valence: " + std::to_string(valence_e) + "\n\t";};
         };
 
