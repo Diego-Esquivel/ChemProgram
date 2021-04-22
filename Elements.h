@@ -13,6 +13,7 @@ struct Hydrogen {
         	int atomic_number = 1;
         	string symbol = "H";
         	int valence_e = 1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -38,6 +39,7 @@ struct Helium {
         	int atomic_number = 2;
         	string symbol = "He";
         	int valence_e = 8;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -63,6 +65,7 @@ struct Lithium {
         	int atomic_number = 3;
         	string symbol = "Li";
         	int valence_e = 1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -88,6 +91,7 @@ struct Beryllium {
         	int atomic_number = 4;
         	string symbol = "Be";
         	int valence_e = 2;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -113,6 +117,7 @@ struct Boron {
         	int atomic_number = 5;
         	string symbol = "B";
         	int valence_e = 3;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -138,6 +143,7 @@ struct Carbon {
         	int atomic_number = 6;
         	string symbol = "C";
         	int valence_e = 4;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -163,6 +169,7 @@ struct Nitrogen {
         	int atomic_number = 7;
         	string symbol = "N";
         	int valence_e = 5;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -188,6 +195,7 @@ struct Oxygen {
         	int atomic_number = 8;
         	string symbol = "O";
         	int valence_e = 6;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -213,6 +221,7 @@ struct Fluorine {
         	int atomic_number = 9;
         	string symbol = "F";
         	int valence_e = 7;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -238,6 +247,7 @@ struct Neon {
         	int atomic_number = 10;
         	string symbol = "Ne";
         	int valence_e = 8;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -263,6 +273,7 @@ struct Sodium {
         	int atomic_number = 11;
         	string symbol = "Na";
         	int valence_e = 1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -288,6 +299,7 @@ struct Magnesium {
         	int atomic_number = 12;
         	string symbol = "Mg";
         	int valence_e = 2;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -313,6 +325,7 @@ struct Aluminium {
         	int atomic_number = 13;
         	string symbol = "Al";
         	int valence_e = 3;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -338,6 +351,7 @@ struct Silicon {
         	int atomic_number = 14;
         	string symbol = "Si";
         	int valence_e = 4;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -363,6 +377,7 @@ struct Phosphorus {
         	int atomic_number = 15;
         	string symbol = "P";
         	int valence_e = 5;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -388,6 +403,7 @@ struct Sulfur {
         	int atomic_number = 16;
         	string symbol = "S";
         	int valence_e = 6;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -413,6 +429,7 @@ struct Chlorine {
         	int atomic_number = 17;
         	string symbol = "Cl";
         	int valence_e = 7;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -438,6 +455,7 @@ struct Argon {
         	int atomic_number = 18;
         	string symbol = "Ar";
         	int valence_e = 8;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -463,6 +481,7 @@ struct Potassium {
         	int atomic_number = 19;
         	string symbol = "K";
         	int valence_e = 1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -488,6 +507,7 @@ struct Calcium {
         	int atomic_number = 20;
         	string symbol = "Ca";
         	int valence_e = 2;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -513,6 +533,7 @@ struct Scandium {
         	int atomic_number = 21;
         	string symbol = "Sc";
         	int valence_e = -1;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -538,6 +559,7 @@ struct Titanium {
         	int atomic_number = 22;
         	string symbol = "Ti";
         	int valence_e = -1;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -563,6 +585,7 @@ struct Vanadium {
         	int atomic_number = 23;
         	string symbol = "V";
         	int valence_e = -1;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -588,6 +611,7 @@ struct Chromium {
         	int atomic_number = 24;
         	string symbol = "Cr";
         	int valence_e = -1;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -613,6 +637,7 @@ struct Manganese {
         	int atomic_number = 25;
         	string symbol = "Mn";
         	int valence_e = -1;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -638,6 +663,7 @@ struct Iron {
         	int atomic_number = 26;
         	string symbol = "Fe";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -663,6 +689,7 @@ struct Cobalt {
         	int atomic_number = 27;
         	string symbol = "Co";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -688,6 +715,7 @@ struct Nickel {
         	int atomic_number = 28;
         	string symbol = "Ni";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -713,6 +741,7 @@ struct Copper {
         	int atomic_number = 29;
         	string symbol = "Cu";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -738,6 +767,7 @@ struct Zinc {
         	int atomic_number = 30;
         	string symbol = "Zn";
         	int valence_e = -1;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -763,6 +793,7 @@ struct Gallium {
         	int atomic_number = 31;
         	string symbol = "Ga";
         	int valence_e = 3;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -788,6 +819,7 @@ struct Germanium {
         	int atomic_number = 32;
         	string symbol = "Ge";
         	int valence_e = 4;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -813,6 +845,7 @@ struct Arsenic {
         	int atomic_number = 33;
         	string symbol = "As";
         	int valence_e = 5;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -838,6 +871,7 @@ struct Selenium {
         	int atomic_number = 34;
         	string symbol = "Se";
         	int valence_e = 6;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -863,6 +897,7 @@ struct Bromine {
         	int atomic_number = 35;
         	string symbol = "Br";
         	int valence_e = 7;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -888,6 +923,7 @@ struct Krypton {
         	int atomic_number = 36;
         	string symbol = "Kr";
         	int valence_e = 8;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -913,6 +949,7 @@ struct Rubidium {
         	int atomic_number = 37;
         	string symbol = "Rb";
         	int valence_e = 1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -938,6 +975,7 @@ struct Strontium {
         	int atomic_number = 38;
         	string symbol = "Sr";
         	int valence_e = 2;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -963,6 +1001,7 @@ struct Yttrium {
         	int atomic_number = 39;
         	string symbol = "Y";
         	int valence_e = -1;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -988,6 +1027,7 @@ struct Zirconium {
         	int atomic_number = 40;
         	string symbol = "Zr";
         	int valence_e = -1;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1013,6 +1053,7 @@ struct Niobium {
         	int atomic_number = 41;
         	string symbol = "Nb";
         	int valence_e = -1;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1038,6 +1079,7 @@ struct Molybdenum {
         	int atomic_number = 42;
         	string symbol = "Mo";
         	int valence_e = -1;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1063,6 +1105,7 @@ struct Technetium {
         	int atomic_number = 43;
         	string symbol = "Tc";
         	int valence_e = -1;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1088,6 +1131,7 @@ struct Ruthenium {
         	int atomic_number = 44;
         	string symbol = "Ru";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1113,6 +1157,7 @@ struct Rhodium {
         	int atomic_number = 45;
         	string symbol = "Rh";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1138,6 +1183,7 @@ struct Palladium {
         	int atomic_number = 46;
         	string symbol = "Pd";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1163,6 +1209,7 @@ struct Silver {
         	int atomic_number = 47;
         	string symbol = "Ag";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1188,6 +1235,7 @@ struct Cadmium {
         	int atomic_number = 48;
         	string symbol = "Cd";
         	int valence_e = -1;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1213,6 +1261,7 @@ struct Indium {
         	int atomic_number = 49;
         	string symbol = "In";
         	int valence_e = 3;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1238,6 +1287,7 @@ struct Tin {
         	int atomic_number = 50;
         	string symbol = "Sn";
         	int valence_e = 4;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1263,6 +1313,7 @@ struct Antimony {
         	int atomic_number = 51;
         	string symbol = "Sb";
         	int valence_e = 5;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1288,6 +1339,7 @@ struct Tellurium {
         	int atomic_number = 52;
         	string symbol = "Te";
         	int valence_e = 6;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1313,6 +1365,7 @@ struct Iodine {
         	int atomic_number = 53;
         	string symbol = "I";
         	int valence_e = 7;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1338,6 +1391,7 @@ struct Xenon {
         	int atomic_number = 54;
         	string symbol = "Xe";
         	int valence_e = 8;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1363,6 +1417,7 @@ struct Cesium {
         	int atomic_number = 55;
         	string symbol = "Cs";
         	int valence_e = 1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1388,6 +1443,7 @@ struct Barium {
         	int atomic_number = 56;
         	string symbol = "Ba";
         	int valence_e = 2;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1413,6 +1469,7 @@ struct Lanthanum {
         	int atomic_number = 57;
         	string symbol = "La";
         	int valence_e = -1;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1438,6 +1495,7 @@ struct Cerium {
         	int atomic_number = 58;
         	string symbol = "Ce";
         	int valence_e = -1;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1463,6 +1521,7 @@ struct Praseodymium {
         	int atomic_number = 59;
         	string symbol = "Pr";
         	int valence_e = -1;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1488,6 +1547,7 @@ struct Neodymium {
         	int atomic_number = 60;
         	string symbol = "Nd";
         	int valence_e = -1;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1513,6 +1573,7 @@ struct Promethium {
         	int atomic_number = 61;
         	string symbol = "Pm";
         	int valence_e = -1;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1538,6 +1599,7 @@ struct Samarium {
         	int atomic_number = 62;
         	string symbol = "Sm";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1563,6 +1625,7 @@ struct Europium {
         	int atomic_number = 63;
         	string symbol = "Eu";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1588,6 +1651,7 @@ struct Gadolinium {
         	int atomic_number = 64;
         	string symbol = "Gd";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1613,6 +1677,7 @@ struct Terbium {
         	int atomic_number = 65;
         	string symbol = "Tb";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1638,6 +1703,7 @@ struct Dysprosium {
         	int atomic_number = 66;
         	string symbol = "Dy";
         	int valence_e = -1;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1663,6 +1729,7 @@ struct Holmium {
         	int atomic_number = 67;
         	string symbol = "Ho";
         	int valence_e = 3;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1688,6 +1755,7 @@ struct Erbium {
         	int atomic_number = 68;
         	string symbol = "Er";
         	int valence_e = 4;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1713,6 +1781,7 @@ struct Thulium {
         	int atomic_number = 69;
         	string symbol = "Tm";
         	int valence_e = 5;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1738,6 +1807,7 @@ struct Ytterbium {
         	int atomic_number = 70;
         	string symbol = "Yb";
         	int valence_e = 6;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1763,6 +1833,7 @@ struct Lutetium {
         	int atomic_number = 71;
         	string symbol = "Lu";
         	int valence_e = 7;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1788,6 +1859,7 @@ struct Hafnium {
         	int atomic_number = 72;
         	string symbol = "Hf";
         	int valence_e = -1;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1813,6 +1885,7 @@ struct Tantalum {
         	int atomic_number = 73;
         	string symbol = "Ta";
         	int valence_e = -1;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1838,6 +1911,7 @@ struct Tungsten {
         	int atomic_number = 74;
         	string symbol = "W";
         	int valence_e = -1;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1863,6 +1937,7 @@ struct Rhenium {
         	int atomic_number = 75;
         	string symbol = "Re";
         	int valence_e = -1;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1888,6 +1963,7 @@ struct Osmium {
         	int atomic_number = 76;
         	string symbol = "Os";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1913,6 +1989,7 @@ struct Iridium {
         	int atomic_number = 77;
         	string symbol = "Ir";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1938,6 +2015,7 @@ struct Platinum {
         	int atomic_number = 78;
         	string symbol = "Pt";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1963,6 +2041,7 @@ struct Gold {
         	int atomic_number = 79;
         	string symbol = "Au";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -1988,6 +2067,7 @@ struct Mercury {
         	int atomic_number = 80;
         	string symbol = "Hg";
         	int valence_e = -1;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2013,6 +2093,7 @@ struct Thallium {
         	int atomic_number = 81;
         	string symbol = "Tl";
         	int valence_e = 3;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2038,6 +2119,7 @@ struct Lead {
         	int atomic_number = 82;
         	string symbol = "Pb";
         	int valence_e = 4;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2063,6 +2145,7 @@ struct Bismuth {
         	int atomic_number = 83;
         	string symbol = "Bi";
         	int valence_e = 5;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2088,6 +2171,7 @@ struct Polonium {
         	int atomic_number = 84;
         	string symbol = "Po";
         	int valence_e = 6;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2113,6 +2197,7 @@ struct Astatine {
         	int atomic_number = 85;
         	string symbol = "At";
         	int valence_e = 7;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2138,6 +2223,7 @@ struct Radon {
         	int atomic_number = 86;
         	string symbol = "Rn";
         	int valence_e = 8;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2163,6 +2249,7 @@ struct Francium {
         	int atomic_number = 87;
         	string symbol = "Fr";
         	int valence_e = 1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2188,6 +2275,7 @@ struct Radium {
         	int atomic_number = 88;
         	string symbol = "Ra";
         	int valence_e = 2;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2213,6 +2301,7 @@ struct Actinium {
         	int atomic_number = 89;
         	string symbol = "Ac";
         	int valence_e = -1;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2238,6 +2327,7 @@ struct Thorium {
         	int atomic_number = 90;
         	string symbol = "Th";
         	int valence_e = -1;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2263,6 +2353,7 @@ struct Protactinium {
         	int atomic_number = 91;
         	string symbol = "Pa";
         	int valence_e = -1;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2288,6 +2379,7 @@ struct Uranium {
         	int atomic_number = 92;
         	string symbol = "U";
         	int valence_e = -1;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2313,6 +2405,7 @@ struct Neptunium {
         	int atomic_number = 93;
         	string symbol = "Np";
         	int valence_e = -1;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2338,6 +2431,7 @@ struct Plutonium {
         	int atomic_number = 94;
         	string symbol = "Pu";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2363,6 +2457,7 @@ struct Americium {
         	int atomic_number = 95;
         	string symbol = "Am";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2388,6 +2483,7 @@ struct Curium {
         	int atomic_number = 96;
         	string symbol = "Cm";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2413,6 +2509,7 @@ struct Berkelium {
         	int atomic_number = 97;
         	string symbol = "Bk";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2438,6 +2535,7 @@ struct Californium {
         	int atomic_number = 98;
         	string symbol = "Cf";
         	int valence_e = -1;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2463,6 +2561,7 @@ struct Einsteinium {
         	int atomic_number = 99;
         	string symbol = "Es";
         	int valence_e = 3;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2488,6 +2587,7 @@ struct Fermium {
         	int atomic_number = 100;
         	string symbol = "Fm";
         	int valence_e = 4;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2513,6 +2613,7 @@ struct Mendelevium {
         	int atomic_number = 101;
         	string symbol = "Md";
         	int valence_e = 5;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2538,6 +2639,7 @@ struct Nobelium {
         	int atomic_number = 102;
         	string symbol = "No";
         	int valence_e = 6;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2563,6 +2665,7 @@ struct Lawrencium {
         	int atomic_number = 103;
         	string symbol = "Lr";
         	int valence_e = 7;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2588,6 +2691,7 @@ struct Rutherfordium {
         	int atomic_number = 104;
         	string symbol = "Rf";
         	int valence_e = -1;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2613,6 +2717,7 @@ struct Dubnium {
         	int atomic_number = 105;
         	string symbol = "Db";
         	int valence_e = -1;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2638,6 +2743,7 @@ struct Seaborgium {
         	int atomic_number = 106;
         	string symbol = "Sg";
         	int valence_e = -1;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2663,6 +2769,7 @@ struct Bohrium {
         	int atomic_number = 107;
         	string symbol = "Bh";
         	int valence_e = -1;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2688,6 +2795,7 @@ struct Hassium {
         	int atomic_number = 108;
         	string symbol = "Hs";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2713,6 +2821,7 @@ struct Meitnerium {
         	int atomic_number = 109;
         	string symbol = "Mt";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2738,6 +2847,7 @@ struct Darmstadtium {
         	int atomic_number = 110;
         	string symbol = "Ds";
         	int valence_e = -1;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2763,6 +2873,7 @@ struct Roentgenium {
         	int atomic_number = 111;
         	string symbol = "Rg";
         	int valence_e = -1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2788,6 +2899,7 @@ struct Copernicium {
         	int atomic_number = 112;
         	string symbol = "Cn";
         	int valence_e = -1;
+        	int charge = 2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2813,6 +2925,7 @@ struct Nihonium {
         	int atomic_number = 113;
         	string symbol = "Nh";
         	int valence_e = 3;
+        	int charge = 3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2838,6 +2951,7 @@ struct Flerovium {
         	int atomic_number = 114;
         	string symbol = "Fl";
         	int valence_e = 4;
+        	int charge = 4;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2863,6 +2977,7 @@ struct Moscovium {
         	int atomic_number = 115;
         	string symbol = "Mc";
         	int valence_e = 5;
+        	int charge = -3;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2888,6 +3003,7 @@ struct Livermorium {
         	int atomic_number = 116;
         	string symbol = "Lv";
         	int valence_e = 6;
+        	int charge = -2;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2913,6 +3029,7 @@ struct Tennessine {
         	int atomic_number = 117;
         	string symbol = "Ts";
         	int valence_e = 7;
+        	int charge = -1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2938,6 +3055,7 @@ struct Oganesson {
         	int atomic_number = 118;
         	string symbol = "Og";
         	int valence_e = 8;
+        	int charge = 0;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
@@ -2963,6 +3081,7 @@ struct Ununennium {
         	int atomic_number = 119;
         	string symbol = "Uue";
         	int valence_e = 1;
+        	int charge = 1;
 
         	string getName(){return name;};
         	double getAtomicMass(){return atomic_mass;};
