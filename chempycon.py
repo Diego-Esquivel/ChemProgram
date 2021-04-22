@@ -20,7 +20,8 @@ for i in w["order"] :
         \tstring molar_hc_s = "{str(w[i]["molar_heat"]) + " J/(K*mol)"}";\n\
         \tint atomic_number = {w[i]["number"]};\n\
         \tstring symbol = "{w[i]["symbol"]}";\n\
-        \tint valence_e = {(-1, w[i]["xpos"]%10) [w[i]["xpos"] < 3 or w[i]["xpos"] > 12] };\n\n\
+        \tint valence_e = {(-1, w[i]["xpos"]%10) [w[i]["xpos"] < 3 or w[i]["xpos"] > 12] };\n\
+        \tint charge = {(w[i]["xpos"]%10,((w[i]["xpos"]%10)-8)) [w[i]["xpos"]%10 > 4]};\n\n\
         \tstring getName(){"{"}return name;{"};"}\n\
         \tdouble getAtomicMass(){"{"}return atomic_mass;{"};"}\n\
         \tdouble getBoilingTemp(){"{"}return boil;{"};"}\n\
