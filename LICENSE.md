@@ -1,4 +1,4 @@
-"## [chem.JSON](https://github.com/Bowserinator/Periodic-Table-JSON/blob/master/periodic-table-lookup.json)" by ## [Bowserinator](https://github.com/Bowserinator) is licensed under ## [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)
+"[chem.JSON](https://github.com/Bowserinator/Periodic-Table-JSON/blob/master/periodic-table-lookup.json)" by [Bowserinator](https://github.com/Bowserinator) is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)
 
 ## [Creative Commons Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0)
 as [cited by Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
